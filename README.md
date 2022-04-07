@@ -13,10 +13,3 @@
 <li>Rota <b>/api/updatetask/{id}</b> = Rota PUT para atualização de tarefa task pelo id</li>
 <li>Rota <b>/api/delete/{id}</b> = Rota DELETE para exclusão de task pelo id</li>
 </ul>
-
-<style>
-.center {
-margin: auto;
-width: 60%;
-}
-</style>
