@@ -5,10 +5,6 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TaskController;
 
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
-
 //Rota GET teste para listagem de tasks com 'ok' no status
 Route::get('oktasks',[TaskController::class, 'getOkTask']);
 
