@@ -16,7 +16,7 @@ class TaskController extends Controller
     }
 
     //metodo para listagem de task
-    public function getTask(){
+    public function index(){
         //uma outra linha que possa funcionar em caso de erro na database: return ModelsTask::all();
         return response()->json([ModelsTask::all(), 200]);
     }
